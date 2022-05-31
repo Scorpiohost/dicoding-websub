@@ -8,62 +8,98 @@
     <title>Blog - Sanjaya</title>
     <!-- External CSS -->
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="title">
-            <h1>Blog</h1>
-            <span>Tempat berbagi Ilmu Pengetahuan</span>
+            <h1>Blog Sanjaya</h1>
+            <span>Tempat berbagi Pengetahuan</span>
         </div>
         <nav>
             <ul>
-                <li>Beranda</li>
-                <li>Artikel</li>
-                <li>Tentang</li>
+                <li><a href="#"><span>Beranda</span></a></li>
+                <li><a href="#"><span>Petualangan</span></a></li>
+                <li><a href="#"><span>Teknologi</span></a></li>
             </ul>
         </nav>
     </header>
     <main>
         <div id="content">
             <article>
-                <h2>Perjalananku</h2>
+                <h2>Perjalananku Mendaki Gunung Bromo</h2>
+                <div class="header-article">
+                    <span>Diposting 30 Mei 2022</span>
+                    <span>Kategori Petualangan</span>
+                </div>
+                <figure>
+                    <img src="/img/bromo.jpg" alt="">
+                </figure>
                 <section>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt culpa deleniti perferendis
                         consectetur vel enim unde maiores,
-                        fuga nihil distinctio delectus molestias, nostrum quis beatae eos, iusto alias aut excepturi.
+                        fuga nihil distinctio delectus molestias, nostrum quis beatae eos, iusto alias aut excepturi. <a
+                            href="#">Baca selengkapnya</a>
                     </p>
                 </section>
             </article>
             <article>
-                <h2>Perjalananku</h2>
+                <h2>Mengenal Lebih Dekat Cybersecurity</h2>
+                <div class="header-article">
+                    <span>Diposting 1 juni 2022</span>
+                    <span>Kategori Teknologi</span>
+                </div>
+                <figure>
+                    <img src="/img/cybersecurity.jpg" alt="">
+                </figure>
                 <section>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt culpa deleniti perferendis
                         consectetur vel enim unde maiores,
-                        fuga nihil distinctio delectus molestias, nostrum quis beatae eos, iusto alias aut excepturi.
+                        fuga nihil distinctio delectus molestias, nostrum quis beatae eos, iusto alias aut excepturi. <a
+                            href="#">Baca selengkapnya</a>
                     </p>
                 </section>
             </article>
             <article>
-                <h2>Perjalananku</h2>
+                <h2>Destinasi Wisata Yang Wajib Dikunjungi Di Yogyakarta</h2>
+                <div class="header-article">
+                    <span>Diposting 1 juni 2022</span>
+                    <span>Kategori Petualangan</span>
+                </div>
+                <figure>
+                    <img src="/img/Malioboro_Street,_Yogyakarta.jpg" alt="">
+                </figure>
                 <section>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt culpa deleniti perferendis
                         consectetur vel enim unde maiores,
-                        fuga nihil distinctio delectus molestias, nostrum quis beatae eos, iusto alias aut excepturi.
+                        fuga nihil distinctio delectus molestias, nostrum quis beatae eos, iusto alias aut excepturi. <a
+                            href="#">Baca selengkapnya</a>
                     </p>
                 </section>
             </article>
+            <div class="paginate">
+            </div>
         </div>
         <aside>
+            <h4 class="about-header">Tentang Saya (Biodata)</h4>
             <div class="about">
-                <span>Nama : Sanjaya</span><br>
-                <span>Email : sanjaya.wsd@gmail.com</span>
+                <figure>
+                    <img src="img/sanjaya.jpg">
+                </figure>
+                <span>Nama  : Sanjaya</span><br>
+                <span>Email : sanjaya.wsd@gmail.com</span><br>
+                <span>No. Tlp : 081278417040</span><br>
+                <span>Github : @Scorpiohost</span>
             </div>
         </aside>
     </main>
     <footer>
         <span>&copy; Sanjaya 2022</span>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
